@@ -6,13 +6,13 @@ client = Groq(api_key="gsk_your_key_here")
 print("My LLM Agent Started")
 print("Type bye to exit")
 
-file = open("chat.txt", "a")
+file=open("chat.txt","a")
 
 while True:
-    msg = input("You: ")
-    file.write("You: " + msg + "\n")
+    msg=input("You:")
+    file.write("You:"+msg+"\n")
 
-    if msg == "bye":
+    if msg=="bye":
         print("Bot: Bye")
         file.write("Bot: Bye\n")
         break
