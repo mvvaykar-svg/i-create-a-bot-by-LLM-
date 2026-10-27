@@ -1,7 +1,7 @@
 from groq import Groq
 
 # put your groq api key here
-client = Groq(api_key="gsk_your_key_here")
+client=Groq(api_key="gsk_your_key_here")
 
 print("My LLM Agent Started")
 print("Type bye to exit")
